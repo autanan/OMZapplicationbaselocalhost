@@ -1,0 +1,12 @@
+name: roboplan
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - openpyxl
+  - pip
+  - pip:
+      - streamlit
+      - flask-cors
